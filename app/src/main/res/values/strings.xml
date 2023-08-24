@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OrderMunch</string>
+
+    <string name="trangChu">Trang Chủ</string>
+    <string name="cuaHang">Cửa hàng</string>
+    <string name="toi">Tôi</string>
+
+    <string name="open_navigationdr">Open Navigation Drawer</string>
+    <string name="close_navigationdr">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
