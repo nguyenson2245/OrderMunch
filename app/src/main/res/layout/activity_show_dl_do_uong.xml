@@ -6,14 +6,13 @@
                                                    android:layout_height="match_parent"
                                                    android:fitsSystemWindows="true">
 
-
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_back_DoUong">
+        app:layout_constraintTop_toBottomOf="@id/bbbbbbbbbbbbbbbbb">
 
         <androidx.appcompat.widget.LinearLayoutCompat
 
@@ -30,19 +29,6 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txt_title_du"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="26dp"
-                android:gravity="center"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/iv_mon_an" />
-
-            <TextView
                 android:id="@+id/txt_DoUong"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,15 +41,35 @@
 
     </androidx.core.widget.NestedScrollView>
 
-    <ImageView
-        android:id="@+id/iv_back_DoUong"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:src="@drawable/baseline_close_24"
+
+
+
+    <LinearLayout
+        android:id="@+id/bbbbbbbbbbbbbbbbb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_back_DoUong"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:src="@drawable/baseline_close_24" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/txt_title_du"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:src="@drawable/baseline_close_24"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
